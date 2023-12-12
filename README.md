@@ -1,5 +1,5 @@
 
-# Visitor Access App - Role Resident
+# Visitor Access App - Resident
 
 The introduction of the resident-centric visitor access application stands as a pivotal element in the holistic functionality of the system. This interface serves as the conduit through which residents effectively manage and supervise the visitor access process within the confines of a residential complex. Employing advanced facial recognition technology, the system is strategically designed to optimize and secure the visitor authentication process, ensuring a seamless and secure access control protocol.
 
