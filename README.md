@@ -1,117 +1,123 @@
 
-# Visitor Access Application - Role Visitor
+# Visitor Access App - Role Resident
 
-Introduction to the Visitor Access Application for Visitors:
+The introduction of the resident-centric visitor access application stands as a pivotal element in the holistic functionality of the system. This interface serves as the conduit through which residents effectively manage and supervise the visitor access process within the confines of a residential complex. Employing advanced facial recognition technology, the system is strategically designed to optimize and secure the visitor authentication process, ensuring a seamless and secure access control protocol.
 
-The introduction of the visitor access application for guests stands as a critical facet in the overarching functionality of the system. Specifically engineered to refine the visitor authentication process within residential complexes, this system harnesses facial recognition technology to verify identities securely. Visitors are mandated to furnish personal information, license plate numbers, photo IDs, and capture facial images for authentication prior to being granted access to the premises.
+Residents find empowerment in the system, enabling them to extend invitations to their guests. This involves capturing pertinent information such as visit date and time, prompting visitors to furnish personal details, license plate numbers, photo IDs, and facial images for thorough identity verification. Upon completion of these requirements, residents can seamlessly dispatch invitations through the application. Furthermore, the system affords residents the ability to review and administer the list of invited visitors, providing a comprehensive overview of their entry records.
 
-The primary objective of the system is to tackle challenges inherent in traditional visitor management methodologies, notably the drawbacks of manual logbooks and time-intensive visitor registration processes. By furnishing a secure and efficient platform for visitor authentication, the system strategically positions itself to fortify security measures and streamline the access management procedures within residential complexes.
+The significance of this system is underscored by its capacity to address challenges inherent in traditional visitor management methodologies, notably the inefficiencies of manual logbooks and protracted registration processes. By furnishing residents with a secure and efficient platform for the nuanced management of visitor access, the system strategically enhances security measures and streamlines the access management procedures within the residential complex.
 
-This introduction underscores the significance of the system in augmenting the efficiency and precision of visitor authentication, thereby contributing to a more secure and streamlined access control process for visitors. Additionally, it provides a succinct overview of the system's functionality and articulates its potential benefits, emphasizing the enhancement of the visitor experience and ensuring secure access to residential buildings.
+This introduction also offers a succinct preview of the system's functionality, emphasizing its potential benefits in terms of elevating the efficiency and accuracy of visitor authentication. Ultimately, the system plays a pivotal role in contributing to a more secure and streamlined access control process for residents, aligning seamlessly with contemporary standards of residential complex security.
 
 
 ## Login Module
 
-![App Screenshot](https://github.com/kohboontao123/visitor_access_app_visitor/blob/main/screenshot/loginpage.png?raw=true)
+![App Screenshot](https://github.com/kohboontao123/visitor_access_app_resident/blob/main/screenshot/loginpage.png?raw=true)
 
-**Introduction to the Login Page:**
+**Resident Login Page:**
 
-Welcome to our secure login page, your gateway to a personalized and protected online experience. This streamlined login interface is designed with simplicity and security in mind, featuring two essential text boxes for your email and password entry.
+Welcome to the Resident Login Page, your secure access point to manage your residential account. To ensure the integrity of your account, please follow the steps outlined below.
 
 **Email and Password Entry:**
 
-Effortlessly insert your registered email and password into the designated text boxes to access your account promptly. We prioritize the confidentiality of your information, ensuring a safe and seamless login process.
+Please enter your registered email address and password in the designated text boxes below. This information is crucial for secure authentication and access to your resident account.
 
-**Forget Password? No Problem:**
+- Email: [Text Box]
+- Password: [Text Box]
 
-In the event of a forgotten password, simply click the "Forgot Password" button. This initiates a process where you can receive a password reset email, allowing you to reset your password and regain access to your account securely.
+**Forget Password?**
 
-**New to Our Community? Register Now:**
+In case you forget your password, don't worry. Click the "Forget Password?" link, and we will promptly send you a reset password email. Follow the instructions in the email to securely reset your password.
 
-If you're not yet a member, the journey begins with a simple click – "Register Now." Join our community by providing the necessary information.
+**Sign In:**
 
-## Register Module
+Once you've entered your credentials, click the "Sign In" button to access your resident account. This will securely authenticate your identity and grant you access to the features and information tailored to residents.
 
-![App Screenshot](https://github.com/kohboontao123/visitor_access_app_visitor/blob/main/screenshot/register%20module.png?raw=true)
+Thank you for choosing us as your residential platform. We prioritize the security and convenience of your login experience. If you encounter any issues or have questions, our support team is here to assist you.
 
-**Introduction to the Registration Module:**
+## Invitation Module
 
-Welcome to our advanced and secure registration module, where we prioritize identity verification for a heightened level of security. Registering with us involves a multi-step process designed to ensure the authenticity of your identity.
+![App Screenshot](https://github.com/kohboontao123/visitor_access_app_resident/blob/main/screenshot/invitation%20page.png?raw=true)
 
-**Identity Verification:**
+**Invitation Module:**
 
-Our first step involves capturing your facial features to establish a secure and unique identity. This facial recognition technology is a key component in our commitment to safeguarding your account.
+Welcome to the Invitation Module, your central hub for managing invitations within the residential community. This intuitive interface is designed to streamline the process of sending and viewing invitations.
 
-**Document Authentication:**
+**Date Selection Bar:**
 
-Next, we'll need a photo of your Malaysian ID card. This step is crucial for additional verification. The system will then compare the facial features captured earlier with the photo on your ID card to ensure a match, enhancing the overall security of the registration process.
+At the top of the page, a date bar displays the day and month. Users can conveniently select a specific day, and the page dynamically updates to showcase the invitation list for the chosen date.
 
-**User Information:**
+**Invitation List:**
 
-Once your identity is verified, you'll be prompted to fill in your user information. This includes necessary details to personalize your account and enhance your overall experience with our services.
+Beneath the date bar, the invitation list for the selected day is displayed. Each invitation entry includes essential details such as the visitor's name, purpose of the visit, and the status of the invitation.
 
-**Invitation for Residents:**
+**Send Invitation Button:**
 
-Upon completion of the registration process, users will be eligible to receive invitations from residents. This feature allows residents to extend invitations seamlessly, contributing to a cohesive and secure community experience.
+In the top right corner, a prominently placed "Send Invitation" button empowers residents to extend invitations seamlessly. Clicking this button initiates the invitation creation process, allowing residents to specify details such as the visitor's information, purpose of the visit, and the desired date.
 
-Thank you for choosing us for your registration needs. We are committed to providing a secure and efficient registration process, ensuring the highest level of identity verification for a safe and enjoyable user experience.
-Accept Invitation Screenshot
+**Invitation Details:**
 
-## Receive Invitation
+Selecting a specific invitation from the list reveals comprehensive details about the invitation, including the visitor's information, date and time of the visit, and any additional notes provided by the resident.
 
-![App Screenshot](https://github.com/kohboontao123/visitor_access_app_visitor/blob/main/screenshot/receive%20invitation.png?raw=true)
+This module is designed to enhance the convenience and efficiency of managing invitations. Whether viewing the upcoming invitations for a specific date or sending a new invitation, residents can navigate this user-friendly interface with ease. Thank you for choosing our platform to facilitate seamless communication within your residential community.
 
-**Invitation Request - Main Page Popup:**
+## Create Invitation Module
 
-Upon receiving an invitation from a resident, your main page will elegantly present an Invitation Request card, offering a glimpse into the details of the forthcoming visit. The pop-up card is titled "Invitation Request," providing a seamless way to manage your invitations.
+![App Screenshot](https://github.com/kohboontao123/visitor_access_app_resident/blob/main/screenshot/create%20invitation.png?raw=true)
 
-**Card Contents:**
+**Introduction to the Create Invitation Module:**
 
-- **Data Invitation:** The card prominently displays essential information about the invitation, such as the date, time, and purpose of the visit.
+Welcome to the Create Invitation Module, where residents can effortlessly extend invitations to their guests, enhancing the seamless flow of communication within the community. This user-friendly interface simplifies the invitation creation process, providing residents with a straightforward method to invite visitors.
 
-- **Image of the Inviter:** A visual representation of the person extending the invitation is included, providing a personal touch to the invitation request.
+**Invitation Creation:**
 
-- **Inviter's Name:** The name of the resident extending the invitation is showcased, fostering a sense of familiarity.
+To initiate the creation of a new invitation, residents are prompted to insert the email or phone number of the intended visitor. This ensures a direct and accurate communication link, facilitating a smooth invitation process.
+
+**Date Selection:**
+
+Residents can then select the start date and end date of the visit, allowing for precise scheduling and coordination. The intuitive date selection feature enhances the flexibility of the invitation process, accommodating various durations for a visitor's stay.
+
+**Effortless Communication:**
+
+This module is designed to prioritize convenience, allowing residents to reach out to their guests seamlessly. By inserting the visitor's contact details and specifying the visit dates, residents can efficiently create invitations that align with their preferences and the needs of their guests.
+
+**Enhance Your Invitation Experience:**
+
+Create Invitations effortlessly, ensuring that your guests feel welcomed and informed. This module aims to simplify the invitation process, promoting effective communication and fostering a sense of community within the residential environment.
+
+Thank you for choosing our platform to facilitate the creation of invitations. We are dedicated to providing a user-friendly experience that enhances your ability to connect with guests and manage invitations with ease.
+
+## Invitation Comfimation Module
+
+![App Screenshot](https://github.com/kohboontao123/visitor_access_app_resident/blob/main/screenshot/invitation%20confirmation.png?raw=true)
+**Introduction to the Invitation Confirmation Module:**
+
+Welcome to the Invitation Confirmation Module, a crucial element in the invitation management process that ensures residents have a clear overview of the details before finalizing an invitation. Upon clicking the "Send Invitation" button, a convenient window will appear, providing essential information about the intended visitor.
+
+**Visitor Information Display:**
+
+This module is designed to present a snapshot of the upcoming visit. Residents will find key details neatly displayed, including:
+
+- **Visitor Image:** A visual representation of the visitor, fostering recognition and a personal touch to the invitation.
+  
+- **Visitor Name:** Clearly indicated to ensure residents are extending invitations to the intended individuals.
+
+- **Visitor Email:** The email address for direct communication with the guest.
+
+- **Visitor Phone Number:** Contact details to facilitate seamless communication during the visit.
+
+- **Start and End Dates:** Precise information about the intended duration of the visit, allowing residents to plan effectively.
 
 **Action Buttons:**
 
-- **Accept:** Clicking the "Accept" button confirms your attendance, signaling your intention to honor the invitation.
+Residents are presented with two distinct buttons:
 
-- **Reject:** Alternatively, the "Reject" button allows you to respectfully decline the invitation.
+- **Send:** Clicking this button finalizes the invitation, ensuring that the provided details are accurate and the invitation is officially extended to the visitor.
 
-**View Invitation Details:**
+- **Cancel:** Residents have the option to cancel the invitation at this stage, providing flexibility in the event of changes or adjustments.
 
-For those curious to delve deeper into the details of the inviter or the invitation itself, a discreet button in the top right corner beckons exploration. Clicking this button opens a dedicated section where you can view comprehensive details about the invitation and the inviting resident.
+**Simplify Invitation Management:**
 
-We strive to make your invitation management experience seamless and user-friendly. The "Invitation Request" card serves as your central hub for managing and responding to invitations, ensuring a convenient and enjoyable interaction with our platform.
+The Invitation Confirmation Module is designed to streamline the process of sending invitations, offering residents a clear and concise overview of the details before confirming. This approach ensures accuracy, reduces the likelihood of errors, and enhances the overall experience of managing invitations within the residential community.
 
-
-## Invitation Card
-
-![App Screenshot](https://github.com/kohboontao123/visitor_access_app_visitor/blob/main/screenshot/invitation%20card.png?raw=true)
-
-**Accepted Invitation - Invitation Tab:**
-
-After accepting an invitation, your user experience continues in the "Invitation" tab, where comprehensive details about the upcoming visit are conveniently displayed. This tab offers a centralized location to access vital information related to the accepted invitation.
-
-**Tab Contents:**
-
-- **Resident Name:** The name of the resident who extended the invitation is prominently featured, providing a clear association with the upcoming visit.
-
-- **Resident Address:** The address of the resident's location is displayed, ensuring you have the necessary information to reach the destination seamlessly.
-
-- **Resident Phone Number:** Contact details for the resident are conveniently provided, allowing for easy communication if needed.
-
-- **Start Date and End Date:** The duration of the visit is clearly outlined, specifying when the invitation begins and concludes.
-
-**Action Buttons:**
-
-- **QR Code:** A dedicated "QR Code" button generates a unique QR code for this specific invitation. This QR code serves as a secure and efficient verification method for gatekeepers upon arrival.
-
-- **Close:** The "Close" button allows you to exit the Invitation tab when you have reviewed the details and are ready to proceed.
-
-**QR Code Verification:**
-
-Clicking the "QR Code" button generates a personalized QR code associated with your accepted invitation. This code serves as an efficient means of verification for gatekeepers, ensuring a smooth and secure entry process into the residential complex.
-
-We prioritize providing a user-friendly and secure environment for managing your invitations. The "Invitation" tab is your go-to destination for all pertinent details, enhancing your overall experience as you prepare for the upcoming visit.
+Thank you for choosing our platform as your preferred tool for efficient and secure invitation management.
