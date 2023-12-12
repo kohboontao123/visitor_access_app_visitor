@@ -90,6 +90,7 @@ Thank you for choosing our platform to facilitate the creation of invitations. W
 ## Invitation Comfimation Module
 
 ![App Screenshot](https://github.com/kohboontao123/visitor_access_app_resident/blob/main/screenshot/invitation%20confirmation.png?raw=true)
+
 **Introduction to the Invitation Confirmation Module:**
 
 Welcome to the Invitation Confirmation Module, a crucial element in the invitation management process that ensures residents have a clear overview of the details before finalizing an invitation. Upon clicking the "Send Invitation" button, a convenient window will appear, providing essential information about the intended visitor.
